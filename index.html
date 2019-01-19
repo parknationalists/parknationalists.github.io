@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Park Nationalists of America</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,400i,700|Titillium+Web:600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="dist/style.css" />
+    <link rel='icon' href='dist/images/logo.png'>
+    <script src="#"></script>
+</head>
+<body>
+  <header>
+      <nav>
+        <div class='navigation'>
+          <div class='half-nav'>
+            <ul class='left nav-items'>
+              <li><a href='#'>Home</a></li>
+              <li><a href='about.html'>About</a></li>
+              <li><a href='history.html'>History</a></li>
+            </ul>
+          </div>
+          <a href='#' class='logo-container'>
+            <h3 class='logo-text'>P</h3>
+            <img src='dist/images/logo.png' class='logo'>
+            <h3 class='logo-text'>N</h3>
+          </a>
+          <div class='half-nav'>
+            <ul class='right nav-items'>
+              <li><a href='parks.html'>Parks</a></li>
+              <li><a href='public/index.html'>Join Us</a></li>
+              <li><a href='donate.html'>Donate</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <div class='page-body'>
+    <div class='landing-home'>
+      <div class='divider'></div>
+      <div class='main-graphic'>
+        <h1 class='title'>
+          Park Nationalists
+        </h1>
+        <img src='dist/images/image-from-rawpixel-id-488606-jpeg.jpg' class='main-img'>
+      </div>
+      <div class='divider'></div>
+    </div>
+  <footer>
+    <div class='foot'>
+
+    </div>
+  </footer>
+</div>
+
+<!-- Firebase App is always required and must be first -->
+<script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-app.js"></script>
+
+<!-- Additional services -->
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-functions.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-storage.js"></script>
+
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDdSmpcv06M70_VLn6K13c1xds-RSC5BwU",
+    authDomain: "parks-visited.firebaseapp.com",
+    databaseURL: "https://parks-visited.firebaseio.com",
+    projectId: "parks-visited",
+    storageBucket: "parks-visited.appspot.com",
+    messagingSenderId: "135248794745"
+  };
+  firebase.initializeApp(config);
+</script>
+
+</body>
+</html>
+
+git clone https://github.com/parknationalists/parknationalists.github.io
